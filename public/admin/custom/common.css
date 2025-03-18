@@ -1,0 +1,130 @@
+.dark_red {
+    background: rgb(65, 0, 56) !important;
+}
+
+.dark_blue {
+    background: rgb(5, 3, 28);
+}
+
+.card-header {
+    display: flow-root;
+}
+
+.dark_blue_gradient {
+    background: linear-gradient(90deg, rgb(6, 7, 57) 0%, rgb(11, 13, 103) 100%);
+}
+
+
+/* Loder Start */
+
+.loading {
+    z-index: 1053;
+    position: absolute;
+    top: 0;
+    left: -5px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: block;
+}
+
+.loading_content {
+    position: fixed;
+    border: 30px solid #f3f3f3;
+    border-top: 30px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    top: 50%;
+    left: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    /* margin-bottom: 15px; */
+}
+
+.custom_icon {
+    padding: 10px;
+    /* background: #424242;
+    color: white; */
+    min-width: 40px;
+    text-align: center;
+    border: 1px solid #ced4da;
+    border-radius: 0px 4px 4px 0px;
+}
+
+/* Loder End */
+
+
+/* Date Picker */
+.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-top {
+    background: #f0f8ff;
+    padding: 5px;
+}
+
+.datepicker-days .table-condensed thead {
+    background: #2892ef87;
+}
+
+.datepicker-days .table-condensed .datepicker-switch {
+    width: 84%;
+    padding: 5px;
+    font-size: 20;
+}
+
+.datepicker-days .table-condensed .datepicker-switch:hover {
+    background-color: #0f9dda;
+}
+
+
+.datepicker-days .table-condensed td,
+.datepicker-days .table-condensed th {
+    padding: 1px;
+}
+
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: rgb(255, 249, 227) !important;
+    border: 1px solid rgba(31, 11, 11, 0.205);
+    background: linear-gradient(to bottom, rgb(39 88 185 / 87%) 0%, rgba(0, 0, 0, 0.1) 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .125), 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: rgb(255, 238, 238) !important;
+    border: 1px solid rgba(31, 11, 11, 0.205);
+    background: linear-gradient(to bottom, rgba(21, 26, 36, 0.87) 0%, rgba(0, 0, 0, 0.1) 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .125), 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+
+
+/* Jquery Validition */
+label.error {
+    color: #d40a0a;
+    /* Red color for error messages */
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+input.error {
+    border: 1px solid #dd0a0a;
+    /* Red border for invalid input fields */
+}
+/* Jquery Validition End */
